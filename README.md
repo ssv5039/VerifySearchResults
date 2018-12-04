@@ -1,5 +1,5 @@
 # VerifySearchResults
-Created Test Case via Selenium to verify URL was correct and started a search for a specific text.
+Created a Test Case via Selenium to verify that the URL was correct and also started a search for a specific text 'eval'.
 
 Verified the following criteria:
 1. Verify that search on PHP.net for "eval" is going to the right place.
