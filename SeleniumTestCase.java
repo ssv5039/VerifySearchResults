@@ -34,7 +34,7 @@ public class PHPEval {
 		}
 		else {
 			System.out.println("Failure, this is not the correct page. The Correct Page should be 'http://php.net/manual/en/function.eval.php'");
-			//Assert.fail ("Test Failed, incorrect page");
+			Assert.fail ("Test Failed, incorrect page");
 			//return -1; // Fail Test
 		}
 		
@@ -44,7 +44,7 @@ public class PHPEval {
 		}
 		else {
 			System.out.println("The Text was 'Caution' was not found.");
-			//Assert.fail ("Test Failed. The text 'Caution' is not found");
+			Assert.fail ("Test Failed. The text 'Caution' is not found");
 			//return -1; // Fail Test
 		}
 	}	
